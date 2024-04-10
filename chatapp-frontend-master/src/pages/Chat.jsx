@@ -238,7 +238,8 @@ const Chat = ({ chatId, user }) => {
             type="submit"
             sx={{
               rotate: "-30deg",
-              bgcolor: orange,
+              /* bgcolor: orange, */
+              backgroundImage: `linear-gradient(135deg, #54478c 0%, #2c3e50 100%)`,
               color: "white",
               marginLeft: "1rem",
               padding: "0.5rem",

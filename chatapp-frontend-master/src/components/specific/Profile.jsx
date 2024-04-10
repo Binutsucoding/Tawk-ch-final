@@ -14,8 +14,8 @@ const Profile = ({ user }) => {
       <Avatar
         src={transformImage(user?.avatar?.url)}
         sx={{
-          width: 200,
-          height: 200,
+          width: 170,
+          height: 170,
           objectFit: "contain",
           marginBottom: "1rem",
           border: "5px solid white",
@@ -48,8 +48,10 @@ const ProfileCard = ({ text, Icon, heading }) => (
     {Icon && Icon}
 
     <Stack>
-      <Typography variant="body1">{text}</Typography>
-      <Typography color={"gray"} variant="caption">
+      <Typography variant="h7" fontFamily={"cursive"} fontWeight={"900"}>
+        {text}
+      </Typography>
+      <Typography color={"darkgrey"} variant="caption">
         {heading}
       </Typography>
     </Stack>

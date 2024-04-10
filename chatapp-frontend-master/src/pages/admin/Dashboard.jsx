@@ -43,7 +43,7 @@ const Dashboard = () => {
 
   const Appbar = (
     <Paper
-      elevation={3}
+      elevation={20}
       sx={{ padding: "2rem", margin: "2rem 0", borderRadius: "1rem" }}
     >
       <Stack direction={"row"} alignItems={"center"} spacing={"1rem"}>
@@ -116,7 +116,7 @@ const Dashboard = () => {
             sx={{ gap: "2rem" }}
           >
             <Paper
-              elevation={3}
+              elevation={20}
               sx={{
                 padding: "2rem 3.5rem",
                 borderRadius: "1rem",
@@ -132,7 +132,7 @@ const Dashboard = () => {
             </Paper>
 
             <Paper
-              elevation={3}
+              elevation={20}
               sx={{
                 padding: "1rem ",
                 borderRadius: "1rem",
@@ -176,7 +176,7 @@ const Dashboard = () => {
 
 const Widget = ({ title, value, Icon }) => (
   <Paper
-    elevation={3}
+    elevation={20}
     sx={{
       padding: "2rem",
       margin: "2rem 0",

@@ -51,6 +51,7 @@ const TypingLoader = () => {
         variant="circular"
         width={15}
         height={15}
+        color={"black"}
         style={{
           animationDelay: "0.1s",
         }}
@@ -59,6 +60,7 @@ const TypingLoader = () => {
         variant="circular"
         width={15}
         height={15}
+        color={"black"}
         style={{
           animationDelay: "0.2s",
         }}
